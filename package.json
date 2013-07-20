@@ -2,16 +2,10 @@
   "name": "password-hasher",
   "version": "0.0.1",
   "description": "Generates a hash of a given password",
-  "homepage": "https://github.com/chris-rock/password-hasher",
-  "bugs": "https://github.com/chris-rock/password-hasher/issues",
   "author": {
     "name": "Christoph Hartmann",
     "email": "",
     "url": "www.acidum.de"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chris-rock/password-hasher"
   },
   "licenses": [
     {
