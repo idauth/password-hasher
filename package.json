@@ -4,8 +4,7 @@
   "description": "Generates a hash of a given password",
   "author": {
     "name": "Christoph Hartmann",
-    "email": "",
-    "url": "www.acidum.de"
+    "email": "chris@lollyrock.com"
   },
   "licenses": [
     {
@@ -13,5 +12,6 @@
     }
   ],
   "devDependencies": {
+    "mocha" : "*"
   }
 }
