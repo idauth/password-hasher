@@ -1,14 +1,16 @@
 {
   "name": "password-hasher",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Generates a hash of a given password",
   "author": {
     "name": "Christoph Hartmann",
     "email": "chris@lollyrock.com"
   },
-  "licenses": [{
-    "type": "MIT"
-  }],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
   "devDependencies": {
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-mocha-test": "~0.10.2"
