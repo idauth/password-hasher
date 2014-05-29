@@ -6,12 +6,14 @@
     "name": "Christoph Hartmann",
     "email": "chris@lollyrock.com"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
+  "licenses": [{
+    "type": "MIT"
+  }],
   "devDependencies": {
-    "mocha" : "*"
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-mocha-test": "~0.10.2"
+  },
+  "scripts": {
+    "test": "grunt test"
   }
 }
