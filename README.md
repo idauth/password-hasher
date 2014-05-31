@@ -1,4 +1,4 @@
-# password-hasher [![Build Status](https://secure.travis-ci.org/chris-rock/password-hasher.png?branch=master)](http://travis-ci.org/chris-rock/password-hasher)
+# password-hasher 
 
 Generates a hash of a given password
 
