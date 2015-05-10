@@ -25,7 +25,7 @@ The following hash schemes are supported.
 With salt:
 
 * `ssha512` (recommended)
-* `ssha384
+* `ssha384`
 * `ssha256`
 * `ssha`
 * `smd5`
