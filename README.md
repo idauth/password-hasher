@@ -12,10 +12,12 @@ Install the module with: `npm install password-hasher`
 var password-hasher = require('password-hasher');
 
 // get hash
-var hash = passwordhasher.createHash('ssha512', 'yourpassword', new Buffer('85ebf65c7169c4e7', 'hex'));
+var hash = passwordhasher.createHash('ssha512', 'alice', new Buffer('83d88386463f0625', 'hex'));
+// returns '21ea8a8975921163474f74e4349eb6b3185b95ada619ae6d83c16dae836eb9c07c33331bf7db8f89d609a01f6278d6e5be7c516a1748cbe87b4cfc125e1e2c9e'
 
 // get rfc 2307 hash
 var rfcHash = passwordhasher.formatRFC2307(hash)
+// returns '{ssha512}IeqKiXWSEWNHT3TkNJ62sxhbla2mGa5tg8FtroNuucB8MzMb99uPidYJoB9ieNblvnxRahdIy+h7TPwSXh4snoPYg4ZGPwYl'
 ```
 
 ## Documentation
