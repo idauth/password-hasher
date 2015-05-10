@@ -1,6 +1,6 @@
 {
   "name": "password-hasher",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "simple password hashing and ldap rfc 2307 support",
   "author": {
     "name": "Christoph Hartmann",
