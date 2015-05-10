@@ -1,26 +1,46 @@
-# password-hasher 
+# password-hasher
 
-Generates a hash of a given password
+[![Build Status](https://travis-ci.org/chris-rock/password-hasher.svg?branch=master)](https://travis-ci.org/chris-rock/password-hasher) [![NPM version](https://badge.fury.io/js/chris-rock%2Fpassword-hasher.svg)](https://badge.fury.io/js/chris-rock%2Fpassword-hasher.svg)
+
+Simplify the generation of password hashes. In addition it supports [rfc2307](https://www.ietf.org/rfc/rfc2307.txt) for usage with LDAP.
 
 ## Getting Started
+
 Install the module with: `npm install password-hasher`
 
 ```javascript
 var password-hasher = require('password-hasher');
-password-hasher.awesome(); // "awesome"
+
+// get hash
+var hash = passwordhasher.createHash('ssha512', 'yourpassword', new Buffer('85ebf65c7169c4e7', 'hex'));
+
+// get rfc 2307 hash
+var rfcHash = passwordhasher.formatRFC2307(hash)
 ```
 
 ## Documentation
-_(Coming soon)_
 
-## Examples
-_(Coming soon)_
+The following hash schemes are supported. 
+
+With salt:
+
+* `ssha512` (recommended)
+* `ssha384
+* `ssha256`
+* `ssha`
+* `smd5`
+
+Without salt:
+
+* `sha512`
+* `sha384`
+* `sha256`
+* `sha`
+* `md5`
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-## Release History
-_(Nothing yet)_
+PRs are welcome. Code style is checked via jshint.
 
 ## License
-Copyright (c) 2013 Christoph Hartmann. Licensed under the MIT license.
+Copyright (c) 2014-2015 Christoph Hartmann. Licensed under the MIT license.
