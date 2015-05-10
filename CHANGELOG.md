@@ -1,5 +1,9 @@
 # Release History
 
+## 1.0.1
+
+* minor readme fixes
+
 ## 1.0.0
 
 * update readme
