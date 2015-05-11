@@ -9,7 +9,7 @@ Simplify the generation of password hashes. In addition it supports [rfc2307](ht
 Install the module with: `npm install password-hasher`
 
 ```javascript
-var password-hasher = require('password-hasher');
+var passwordhasher = require('password-hasher');
 
 // get hash
 var hash = passwordhasher.createHash('ssha512', 'alice', new Buffer('83d88386463f0625', 'hex'));
